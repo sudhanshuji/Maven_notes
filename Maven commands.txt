@@ -1,0 +1,6 @@
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+ 
+mvn archetype:generate -DgroupId=com.mindtree -DartifactId=my-webApp -DarchetypeArtifactId=maven-archetype-webapp -DinteractiveMode=false
+ 
+mvn eclipse:eclipse
+mvn eclipse:clean eclipse:eclipse
